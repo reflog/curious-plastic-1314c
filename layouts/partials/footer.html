@@ -1,0 +1,8 @@
+<!-- Footer -->
+<footer id="footer" class="wrapper {{ if eq .Params.layout "home" }}{{ .Site.Params.footer.landing_style }}{{ else }}{{ .Site.Params.footer.alt_style }}{{ end }}">
+    <div class="inner">
+        <ul class="menu">
+            <li>{{ .Site.Params.footer.copyright | safeHTML }}</li>
+        </ul>
+    </div>
+</footer>
